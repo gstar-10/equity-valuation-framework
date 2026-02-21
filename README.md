@@ -55,6 +55,30 @@ Designed to demonstrate:
 - Scenario analysis capability
 
 
+---
+
+## Example Usage
+
+```python
+from src.dcf_model import project_fcfs, dcf_valuation
+
+fcfs = project_fcfs(
+    initial_revenue=100,
+    revenue_growth=0.05,
+    ebit_margin=0.25,
+    tax_rate=0.20,
+    reinvestment_rate=0.40,
+    years=5
+)
+
+enterprise_value = dcf_valuation(
+    fcfs=fcfs,
+    discount_rate=0.10,
+    terminal_growth=0.02
+)
+
+print("Enterprise Value:", enterprise_value)
+
 ## Future Extensions
 
 - Monte Carlo simulation
