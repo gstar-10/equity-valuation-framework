@@ -54,8 +54,12 @@ Designed to demonstrate:
 - Quantitative reasoning
 - Scenario analysis capability
 
+## Future Extensions
 
----
+- Monte Carlo simulation
+- LBO model integration
+- Data pipeline integration (API-based financial data)
+- Visualization dashboard
 
 ## Example Usage
 
@@ -79,9 +83,4 @@ enterprise_value = dcf_valuation(
 
 print("Enterprise Value:", enterprise_value)
 
-## Future Extensions
 
-- Monte Carlo simulation
-- LBO model integration
-- Data pipeline integration (API-based financial data)
-- Visualization dashboard
